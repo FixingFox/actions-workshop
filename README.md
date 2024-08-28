@@ -1,5 +1,5 @@
 # CI/CD workshop using Github actions
-![pull-request-action workflow](https://img.shields.io/badge/Workflow_build)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/:user/:repo/:workflow)
 ## Workshop
 
 In the [Tasks](./tasks.md) file you will find the tasks for the workshop. Do as many as you can, but don't worry if you can't finish them all.
