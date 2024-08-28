@@ -7,8 +7,11 @@ on:
 
 jobs:
   build: 
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
     name: build
-    runs-on: ubuntu-latest
+    runs-on: ${{matrix.os}}
     steps:
     - uses: actions/checkout@v4
     - name: npm install, build and test
